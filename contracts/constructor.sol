@@ -6,7 +6,7 @@ contract Constructor{
     /*
     string public tokenName;
     uint public totalSupply;
-    
+
     constructor(string memory name, uint number){
         tokenName = name;
         totalSupply = number;
@@ -15,10 +15,10 @@ contract Constructor{
     uint public immutable totalSupply;
     address public immutable owner;
 
-    // address is not using in constructor parameter. 
+    // address is not using as constructor parameter. 
     constructor(uint number){
         owner = msg.sender;
-        totalSupply = number;
+        totalSupply = number;           // you can use immutable variables in constructor but not constants.
     }
 
     uint public constant consNum = 100;
