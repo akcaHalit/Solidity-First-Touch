@@ -26,6 +26,58 @@
 			},
 			{
 				"inputs": [],
+				"name": "callInternalKeyword",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "callPrivateKeyword",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "callPublicKeyword",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "publicKeyword",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "sayHello",
 				"outputs": [
 					{
@@ -92,11 +144,11 @@
 	},
 	"sources": {
 		"contracts/first.sol": {
-			"keccak256": "0x8e9c0dd05703db01e319e6bf4ff4a91f8f5e1d840918d0f22355925a6c68c9e3",
+			"keccak256": "0x03624c2768b9e52150fe8731dc9fae509107a6958085d6b08fe45ed00729fde5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9af5a707f5a5dbf9f287fd9fb513e742e1f9834c9c90758efbd4941be5f6d2b9",
-				"dweb:/ipfs/QmTzq9GVmtCnBWEVqmDzpwmMyn1PofiSL2r2ixgihnq8nE"
+				"bzz-raw://4364146021931b3f7652222e1184f3cc7b07429c95cdf1df7644ef89cd931e1b",
+				"dweb:/ipfs/QmcicyEbrrzTpihCjGKtJkc5Lw1tHVuJAsFUj1bcKQJguA"
 			]
 		}
 	},
