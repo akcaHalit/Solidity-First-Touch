@@ -22,5 +22,25 @@ contract Bank{
         to.transfer(amount);
         balances[msg.sender] -= amount;        // update the balance
     }
+    //1- Transfer() ---------------------------------
+    // If the address does not have the amount that it want to send. The amount will be revert to the address.  It is the feature of transfer() function.
+
+
+    // 2- Send()
+    // It returns the status of the process:        true-false
+    function withdrawSend(address payable to,uint amount) external returns(bool){
+        bool status = to.send(amount);
+        balances[msg.sender] -= amount;        // update the balance
+        return status;
+    }
+
+    // 3- Call()
+    function withdrawCall(address payable to,uint amount) external returns(bool){
+        (bool status,) = to.call{value: amount}("");        // bool status, ==> even if the second parameters is null I have to be write it.
+        balances[msg.sender] -= amount;        // update the balance
+        return status;
+    }
+
+    
 
 }

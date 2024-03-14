@@ -42,6 +42,54 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawCall",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawSend",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -72,11 +120,11 @@
 	},
 	"sources": {
 		"contracts/Transfers.sol": {
-			"keccak256": "0xd228688715effe83b523cde5b526c1884265cde88f0ff4fa388f6c76dacf0975",
+			"keccak256": "0x1134cdbbc1d1db009a3736c08a20de6826627f82560bd4d1aeeac4e192af3bff",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d6570e360fe832bcfbc7683d0f95c25ff8a0ae45e82546e9dedc80816d566ed0",
-				"dweb:/ipfs/QmUoqSoUp4TFMGvkj34gwA5th7EF3EwraTa9zo5o6e8vDv"
+				"bzz-raw://a25ac1b076180865e5c84607ffabc70297353f5677a35ed09488ede9000c71ab",
+				"dweb:/ipfs/QmaPAjokhYCBsP4exRxwmgr4ta9qUe2KRgEwyfWDCBM5j4"
 			]
 		}
 	},
