@@ -17,6 +17,25 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "isMember",
+						"type": "bool"
+					}
+				],
+				"name": "welcomeMsg",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -32,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Inheritence.sol": "Human"
+			"contracts/Inheritence.sol": "SuperHuman"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
