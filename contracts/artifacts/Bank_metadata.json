@@ -24,6 +24,24 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -54,11 +72,11 @@
 	},
 	"sources": {
 		"contracts/Transfers.sol": {
-			"keccak256": "0x768a46e38138609e64a895df56dd998ff533d93ea7e68b0693b285942f1b3bc1",
+			"keccak256": "0xd228688715effe83b523cde5b526c1884265cde88f0ff4fa388f6c76dacf0975",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1b349cabecc06f24e8283be38e130fab9528e7859075327f2df449d859b10618",
-				"dweb:/ipfs/QmZL7p9VXCMUpLBYvVs1h8LfbW3vZCKk2YnJeFTNzu565i"
+				"bzz-raw://d6570e360fe832bcfbc7683d0f95c25ff8a0ae45e82546e9dedc80816d566ed0",
+				"dweb:/ipfs/QmUoqSoUp4TFMGvkj34gwA5th7EF3EwraTa9zo5o6e8vDv"
 			]
 		}
 	},
