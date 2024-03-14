@@ -41,6 +41,18 @@ contract Bank{
         return status;
     }
 
-    
+    //** receive() ==>  If ether is sent to contract, what the contract should do?
+    uint public receiveCount = 0;
+    receive() external payable {
+        receiveCount++;
+     }
+
+    // fallback()  ==>  It provides to communicate to send data to the contract.
+    // If you don't have receive function, so even if there is no data in transaction the fallback function will be called.
+    uint public fallbackCount = 0;
+    fallback() external payable { 
+        fallbackCount++;
+    }
+
 
 }

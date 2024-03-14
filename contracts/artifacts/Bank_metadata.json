@@ -6,6 +6,36 @@
 	"output": {
 		"abi": [
 			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "fallbackCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "receiveCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "sendEthersToContract",
 				"outputs": [],
@@ -90,6 +120,10 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -120,11 +154,11 @@
 	},
 	"sources": {
 		"contracts/Transfers.sol": {
-			"keccak256": "0x1134cdbbc1d1db009a3736c08a20de6826627f82560bd4d1aeeac4e192af3bff",
+			"keccak256": "0xeb2199f6c8cff345a3792e4ae072683255dd8aa81041085ca976461b977eb6a6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a25ac1b076180865e5c84607ffabc70297353f5677a35ed09488ede9000c71ab",
-				"dweb:/ipfs/QmaPAjokhYCBsP4exRxwmgr4ta9qUe2KRgEwyfWDCBM5j4"
+				"bzz-raw://bfc47e2e9b81570a1e5bf17133e722f49a76e2dac4f2ad1aee84a643c68e292b",
+				"dweb:/ipfs/QmajR4SrrYhQG3T3ppmhLoASUm4KmgMSpAs4qF77udRUrk"
 			]
 		}
 	},
